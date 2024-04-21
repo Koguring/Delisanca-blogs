@@ -1,0 +1,4 @@
+baseURL = 'https://delisanca.blog/'
+languageCode = 'zh-cn'
+title = 'Delisanca'
+theme = 'ananke'
