@@ -8,14 +8,14 @@ pygmentsUseClasses = true
 [params]
   author = "Delisanca"
   description = "In solitude, where we are least alone."
-  github = "Koguring"
-#  facebook = "MeiK2333"
-#  twitter = "MeiK2333"
-#  linkedin = "MeiK2333"
-#  instagram = "MeiK2333"
-#  tumblr = "MeiK2333"
-  email = "komeijikoguring@gmail.com"
-  url = "https://delisanca.blog/"
+  github = "MeiK2333"
+  facebook = "MeiK2333"
+  twitter = "MeiK2333"
+  linkedin = "MeiK2333"
+  instagram = "MeiK2333"
+  tumblr = "MeiK2333"
+  email = "meik2333@gmail.com"
+  url = "https://meik2333.com"
   keywords = "blog, google analytics"
   rss = true
   lastmod = true
@@ -29,9 +29,9 @@ pygmentsUseClasses = true
   [params.gitalk]
     clientID = "Your client ID" # Your client ID
     clientSecret = "Your client secret" # Your client secret
-    repo = "Delisanca-blogs" # 您的博客的github地址Repository name，例如：xxxx.github.io
-    owner = "Delisanca" # 您的GitHub ID
-    admin = "Delisanca" # 您的GitHub ID
+    repo = "LuvSia" # 您的博客的github地址Repository name，例如：xxxx.github.io
+    owner = "ventusoon" # 您的GitHub ID
+    admin = "ventusoon" # 您的GitHub ID
     id = "location.pathname" # 文章页面的链接地址就是ID
     labels = "gitalk" # Github issue labels. If you used to use Gitment, you can change it
     perPage = 15 # Pagination size, with maximum 100.
@@ -41,15 +41,14 @@ pygmentsUseClasses = true
     proxy = "https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token" # 可以自行添加反向代理
   [[params.links]]
     title = "Link"
-#    href = "https://github.com/meik2333"
+    href = "https://github.com/meik2333"
   [[params.links]]
     title = "Link2"
-#    href = "https://meik2333.com"
-#    icon = "https://meik2333.com/images/avatar.png"
+    href = "https://meik2333.com"
+    icon = "https://meik2333.com/images/avatar.png"
 
 [frontmatter]
   lastmod = ["lastmod", ":fileModTime", ":default"]
-
 
 [services]
   [services.googleAnalytics]
